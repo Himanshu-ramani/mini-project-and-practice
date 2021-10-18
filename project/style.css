@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}.navbar{
+    color: white;
+    background-color: purple;
+    height: 50vh;
+}
+nav ,.content{
+    margin: 0 25px;
+}
+.list {
+display: flex;
+list-style: none;
+text-decoration: none;
+justify-content: space-evenly;
+position: absolute;
+right: 100px;
+align-items: center;
+}
+.dot{
+    padding: 10px;
+}
+.dot a:hover{
+    color:#9867C5 ;
+    padding: 10px;
+    text-decoration: underline;
+}
+.option{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+nav{
+    display: flex;
+}
+.dot a{
+    text-decoration: none;
+    color: white;
+}
+.navbar h1{
+    font-size: 30px;
+    font-weight: 300;
+    margin: 20px 0;
+    line-height: 1.2;
+    position: relative;
+    left:5px; 
+}
+.btn{
+    text-decoration: none;
+    color: white;
+}
+.content{
+    margin-top: 50px;
+}
+.heading{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.heading2{
+    font-size: 20px;
+
+}
+.text{
+    margin-top: 25px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    
+}
+#textarea{
+    font-family: sans-serif;
+    padding: 10px 30px;
+    border-radius: 6px;
+    border: 0px solid;
+}
+.btn{
+    background-color:#9867C5;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    box-shadow:0 10px 10px rgba(0, 0, 0,30%);
+    margin-left: 6px;
+}
+.heading3{
+    margin-top: 10p;
+    font-family: sans-serif;
+}
+.pc{
+    position: absolute;
+    height: 300px;
+    width: 450px;
+    top: 70px;
+    right: 70px;
+    box-shadow:7px 7px 20px rgba(0, 0, 0,30%);
+}
+.folder,.cap{
+    height: 25px;
+}
+.box{
+    padding: 10px;
+    margin-top: 50px;
+   display: flex;
+   justify-content: space-around;
+    font-size: 20px;
+}
+.head{
+    font-weight:600;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.folder , .cap{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.box1, .box2 ,.box3{
+    /* padding: 10px; */
+    width: 320px;
+}
+.box3{
+margin-top: 24px;    
+}
+.img{
+    width: 100px;
+}
+.footer{
+    margin: 60px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.content1,.content2,.content3{
+    width: 290px;
+    border-radius: 15px;
+    box-shadow: 7px 7px 20px rgba(0, 0, 0,20%) , -7px -7px 20px rgba(0, 0, 0,20%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.name{
+    margin: auto;
+}
+
+.img{
+    border-radius: 50%;
+    border: 3px solid purple ;
+    position: relative;
+    margin: auto;
+    top: -50px;
+}
